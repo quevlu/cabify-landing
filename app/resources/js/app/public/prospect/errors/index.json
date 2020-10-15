@@ -1,0 +1,13 @@
+{
+  "name": {
+    "required": "Este campo es requerido."
+  },
+  "lastname": {
+    "required": "Este campo es requerido."
+  },
+  "email": {
+    "required": "Este campo es requerido.",
+    "email": "Este campo debe ser un email.",
+    "unique": "El valor ingresado ya esta en uso"
+  }
+}

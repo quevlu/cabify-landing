@@ -1,0 +1,52 @@
+{
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "*.yml",
+      "options": {
+        "parser": "yaml"
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "parser": "babel"
+      }
+    },
+    {
+      "files": "*.scss",
+      "options": {
+        "parser": "scss"
+      }
+    },
+    {
+      "files": "**/routes/*.js",
+      "options": {
+        "printWidth": 250
+      }
+    }
+  ],
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "printWidth": 108,
+  "semi": true,
+  "useTabs": false,
+  "singleQuote": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "jsxBracketSameLine": true,
+  "parser": "vue",
+  "endOfLine": "lf",
+  "vueIndentScriptAndStyle": false
+}
