@@ -27,6 +27,6 @@ class SendEmailWhenProspectWasCreated
     {
         Mail::to($event->model->email)->send(new ProspectedCreated);
 
-        Log::info('The mail has been sent');
+        Log::info('The mail has been sent', [$event->model]);
     }
 }
